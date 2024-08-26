@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  cursor: url(./img/cursor-exemple.png), pointer;
+}
+
+header {
+  font-family: "Lily Script One", cursive;
+  color: #ffffff;
+  background-color: #1E1E1E;
+  width: 100vw;
+  height: 10vw;
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  display: inline-flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  list-style: none;
+}
+
+.logo img {
+  width: 100vw;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+}
+
+div {
+  display: inline;
+  margin: 15px 0px 15px 0px;
+}
+div img {
+  width: 25vw;
+}
+
+footer {
+  background-color: #1E1E1E;
+  color: #ffffff;
+  font-family: "Actor", arial;
+  font-size: 1.6rem;
+  height: 20vh;
+  width: 100vw;
+  display: inline-flex;
+  justify-content: space-around;
+}
+footer p {
+  display: inline-flex;
+  align-items: center;
+  justify-content: right;
+}
+footer .logosFooter {
+  display: inline-flex;
+  justify-content: right;
+  align-items: center;
+}
+footer .logosFooter img {
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: right;
+}/*# sourceMappingURL=style.css.map */
